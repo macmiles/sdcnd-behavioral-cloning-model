@@ -675,8 +675,6 @@ Here's a gif of the model in action, replayed back at 400% the original speed (c
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=hqktbJ61eBY" target="_blank"><img src="media/sdc_model_track1_gif.gif"></a>
 
-![Track1 Performance](media/sdc_model_track1_gif.gif)
-
 As we can see, the model performs quite well. It handles the turns smoothly while remaining relatively central throughout the entire track. 
 
 ## Lessons Learned
