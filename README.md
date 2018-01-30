@@ -69,7 +69,7 @@ plt.imshow(test_image)
 
 
 
-![png](output_6_1.png)
+![png](media/output_6_1.png)
 
 
 ### Convert BGR Images to RGB
@@ -92,7 +92,7 @@ plt.imshow(test_image_rgb)
 
 
 
-![png](output_8_1.png)
+![png](media/output_8_1.png)
 
 
 ### Crop Top/Bottom Parts of Training Images
@@ -115,7 +115,7 @@ plt.imshow(test_image_crop)
 
 
 
-![png](output_10_1.png)
+![png](media/output_10_1.png)
 
 
 ### Resize Images Down to 64x64
@@ -138,7 +138,7 @@ plt.imshow(test_image_resize)
 
 
 
-![png](output_12_1.png)
+![png](media/output_12_1.png)
 
 
 ### Apply Gaussian Blur
@@ -162,7 +162,7 @@ plt.imshow(test_image_blur)
 
 
 
-![png](output_14_1.png)
+![png](media/output_14_1.png)
 
 
 ### Apply Random Brightness
@@ -189,7 +189,7 @@ plt.imshow(test_image_brighten)
 
 
 
-![png](output_16_1.png)
+![png](media/output_16_1.png)
 
 
 ### Flip Images
@@ -212,7 +212,7 @@ plt.imshow(test_image_flip)
 
 
 
-![png](output_18_1.png)
+![png](media/output_18_1.png)
 
 
 ### Load Images with Augmentation
@@ -319,7 +319,7 @@ plt.show()
 ```
 
 
-![png](output_22_0.png)
+![png](media/output_22_0.png)
 
 
 Clearly there's an disproportionate amount of data for values that fall within the 0 (+-0.10) range. This skew creates a bias in the vehicles steering, which translates to poor performance when it comes to turning around curves on the track. Thus, it might be beneficial to be more selective in our training data and attempt to maintain a more uniform distribution across the various ranges of steering data. This preprocessing step would allow our model to generalize much better allowing it to become much more responsive to curves in the track.
@@ -352,7 +352,7 @@ plt.show()
 ```
 
 
-![png](output_25_0.png)
+![png](media/output_25_0.png)
 
 
 ### Balancing Steering Data
@@ -424,7 +424,7 @@ plt.show()
 ```
 
 
-![png](output_30_0.png)
+![png](media/output_30_0.png)
 
 
 Although the general steering orientation appears to have leveled out and the mean has converged closer to zero, the histogram tells us a slightly different story. The histogram is a lot more balanced then it was before, however, it's not perfectly symmetrical. We'll focus on this in the next section.
@@ -437,7 +437,7 @@ plt.show()
 ```
 
 
-![png](output_32_0.png)
+![png](media/output_32_0.png)
 
 
 ### Load Data, Shuffle, and Split for Training/Validation
