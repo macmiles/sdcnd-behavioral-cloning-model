@@ -675,7 +675,8 @@ Here's a gif of the model in action, replayed back at 400% the original speed (c
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=hqktbJ61eBY" target="_blank"><img src="https://i.imgur.com/b35pS1I.gif"></a>
 
-![GIF](https://i.imgur.com/b35pS1I.gif)
+[GIF](https://i.imgur.com/b35pS1I.gif)
+[Imgur](https://i.imgur.com/b35pS1I.gifv)
 
 As we can see, the model performs quite well. It handles the turns smoothly while remaining relatively central throughout the entire track. 
 
