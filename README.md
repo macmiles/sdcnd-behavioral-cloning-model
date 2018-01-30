@@ -671,7 +671,7 @@ For the sake of speeding up the training process and avoiding limited-memory iss
 The model weights were fully trained from scratch using 8,000 training data (randomly sampled from a much larger dataset of 32,000) and validated for accuracy using 2,000 validation image/steering data. Moreover, an Adam optimizer was used to train the model parameters and minimize the loss function.
 
 ## Model Performance
-Here's a gif of the model in action, replayed back at 400% the original speed (click on gif to see video):
+Here's a gif of the model in action, replayed back at 4x the original speed (click on gif to see video):
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=hqktbJ61eBY" target="_blank"><img src="media/sdc_model_track1_gif.gif"></a>
 
