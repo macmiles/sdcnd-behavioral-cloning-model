@@ -1,6 +1,9 @@
 
-# Behavioral Cloning Model for a Simulated Self-Driving Car
-The objective of this project is to develop a model capable of autonomously driving a vehicle along a track. To accomplish this, I will utilize Udacity's vehicle simulation and begin by manually driving the vehicle around the track multiple times while collecting relevant image and input data. Subsequently, I will apply appropriate preprocessing techniques to prepare the data for training a convolutional neural network (CNN) model, which will enable the vehicle to navigate the track independently.
+# Driving Towards Autonomy: Developing a Self-Driving Model
+The goal of this project is to train a model to navigate a virtual vehicle around track. The approach involves using Udacity's vehicle simulation engine to gather training data and also to test drive the model. 
+
+## Approach
+We'll first manually navigate a vehicle around a track a few times, capture the video and relative inputs (up,left,right,down), synthesize the images and inputs frame by frame, then design and train a convolutional neural network (CNN) using the data. 
 
 ### Import Dependencies
 
